@@ -3,6 +3,8 @@ Serviço em PHP para exibição da previsão do tempo em cidades brasileiras, ut
 
 **Demo: https://www.rafaelamorim.com.br/tempo**
 
+(sample.png)
+
 
 ## Como utilizar
 
