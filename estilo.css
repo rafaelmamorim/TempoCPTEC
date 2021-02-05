@@ -1,0 +1,113 @@
+/* 
+    Estilo padrão do serviço de previsão do tempo
+    Created on : 04/02/2021, 14:28:20
+    Author     : Rafael Amorim <www.rafaelamorim.com.br>
+    License    :GPLv3
+*/
+
+/* TAGS HTML */
+html,body {
+    background: url(imagens/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    font-family: system-ui;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 2.8em;
+    font-weight: bold;
+    text-shadow: #ccc 1px 0 10px;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: #c1c1c1 1px 0 6px;
+    margin: 0px;
+    text-align: right;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 500;
+    padding: 2px 2px 4px 2px;
+    text-align: center;
+    border: 1px black;
+}
+
+a:link, a:visited {
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    text-shadow: 0 0 black;
+}
+
+/* CLASSES */
+.previsao{
+    display: table;
+    border-collapse: collapse;
+    position: relative;
+    margin: auto;
+    table-layout: fixed;
+    width: 95%;
+}
+
+.tempo{
+    display: table-cell;
+    padding: 0px 10px 0px 10px;
+    width: 2%;
+    max-width: 25%;
+}
+
+.tempo > img{
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+.tempo > p {
+    font-size:1.5em;
+}
+
+.fonte{
+    bottom: 10px;
+    position: absolute;
+    /* text-align: center; */
+    font-size: 0.9em;
+    line-height: 1.2;
+    /* left: 50%;*/
+}
+
+.maxima{
+    display: flex;
+    height: 40px;
+    padding: 10px 0px 10px 0px;
+    font-size: 2.2em
+}
+.maxima > img {
+    padding-right: 5px;
+}
+
+.minima {
+    display: flex;
+    height: 40px;
+    padding: 10px 0px 10px 0px;
+    font-size: 2.2em
+}
+.minima > img {
+    padding-right: 5px;
+}
+
+.iuv{
+    display: flex;
+    height: 40px;
+    padding: 10px 0px 10px 0px;
+    font-size: 1.5em;
+}
+.iuv > img {
+
+}
